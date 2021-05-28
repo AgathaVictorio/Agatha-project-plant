@@ -1,0 +1,78 @@
+body{
+    color: #4d4d4d !important;
+    height: 100px;
+}
+.fas.fa-leaf{
+    background: linear-gradient(221.4deg, #6DA64E 0%, #4EAA94 73.1%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.row.row-hero{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 73px;
+}
+.text-header{
+    font-size: 80px !important;
+    color: #FFAA1C;
+    font-weight: 500;
+}
+.text-body{
+    font-weight: 300;
+}
+.icon-1{
+    width: 80px;
+    height: 90px;
+}
+.img-icons{
+    position: relative;
+    right: -130px;
+}
+.muffin-text{
+    font-weight: 300;
+    line-height: 55px !important;
+}
+.carousel .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background: #3A9D9F;
+}
+.carousel .indicators .indicator-item.active {
+    background-color: rgb(255, 212, 196);
+    position: relative;
+    top: -4px;
+}
+.input-field input{
+    position: relative !important;
+    right: 20px !important;
+    background-color: white !important;
+    color: #4d4d4d !important;
+    border: none !important;
+    border-radius: 20px 0 !important;
+    outline: none !important;
+    height: 3rem !important;
+    width: 80% !important;
+    font-size: 16px !important;
+    margin: 0 0 8px 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    box-sizing: content-box !important;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s !important;
+}
+#email{
+    position: relative;
+    top: 20px;
+} 
+#email2 {
+    padding-top: 20px;
+}
+@media screen and (max-width: 601px){
+    .fas.fa-leaf{
+        position: relative;
+        top: 15px !important;
+    }
+}

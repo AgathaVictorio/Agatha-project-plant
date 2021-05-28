@@ -1,0 +1,152 @@
+body{
+    
+    background-color: #000 !important;
+    color: #d3d3d3 !important;
+    height: 100px;
+}
+.fa-leaf{
+    background: linear-gradient(229.47deg, #6DA64E 0%, #5CAD85 70.49%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.btn-nav{
+    width: 120px !important;
+    height: 40px;
+    font-size: 15px;
+    background: linear-gradient(95.38deg, #6DA64E 6.65%, #4DB4B7 92.28%);
+    font-weight: 300;
+    border-radius: 13px 0;
+}
+.active{
+    background: #e1ffeb !important;
+}
+.btn-nav-2{
+    height: 40px;
+    font-size: 20px !important;
+    background: linear-gradient(95.38deg, #6DA64E 6.65%, #4DB4B7 92.28%);
+    font-weight: 300;
+    border-radius: 13px 0;
+    font-weight: 400 !important;
+}
+.sidenav{
+    padding: 20px 0 20px 0 !important;
+}
+.row-hero {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.line-blah{
+    position: relative;
+    top: 30px;
+}
+h3 {
+    font-size: 2.92rem;
+    font-weight: 250;
+    line-height: 110%;
+    margin: 1.9466666667rem 0 1.168rem 0;
+}
+.span-style{
+    font-weight: 400 !important;
+    color: #ffa811;
+}
+.btn-hero{
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(272.24deg, #4DB4B7 2.47%, #82C15F 99.04%);
+    border-radius: 20px 2px;
+}
+.bn-hero-btn{
+    font-size: 20px !important;
+    position: relative;
+    top: 7px;
+}
+.section-plants-you-can-buy{
+    position: relative;
+    top: -30px !important;
+}
+.border-1{
+    border: 5px #328284 solid;
+    height: 270px !important;
+    width: 370px;
+    border-radius: 30px 0;
+    padding: 0 70px 0 50px;
+}
+.border-2{
+    border: 5px #FFE4B6 solid;
+    height: 270px !important;
+    width: 370px;
+    border-radius: 30px 0;
+    padding: 0 70px 0 50px;
+}
+.text-details{
+    font-weight: 300;
+    color: #a4cbcc;
+    font-size: 28px;
+    position: relative;
+    top: -30px;
+    left: -20px;
+}
+.text-details-2{
+    font-weight: 300;
+    color: #d6c7b3;
+    font-size: 28px;
+    position: relative;
+    top: -30px;
+    left: -20px;
+}
+.img-1-plant{
+    position: relative;
+    top: 20px !important;
+}
+.img-2-plant{
+    position: relative;
+    top: 70px !important;
+}
+.body-text-plants{
+    font-weight: 200;
+    color: #96bdbd;
+}
+.btn-lm{
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(272.24deg, #FFD5C5 2.47%, #FFF5E4 99.04%);
+    border-radius: 20px 2px;
+    font-size: 17px;
+}
+.lm-span{
+    position: relative;
+    top: 7px;
+    color: #4d4d4d;
+}
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    position: relative;
+    right: 20px !important;
+    background-color: white;
+    color: #4d4d4d !important;
+    border: none;
+    border-radius: 20px 0;
+    outline: none;
+    height: 3rem;
+    width: 80%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+#email{
+    position: relative;
+    top: 20px;
+} 
+#email2 {
+    padding-top: 20px;
+}
+@media screen and (max-width: 601px){
+    .fas.fa-leaf{
+        position: relative;
+        top: 15px !important;
+    }
+}

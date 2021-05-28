@@ -1,0 +1,62 @@
+.center-item{
+    position: relative;
+    right: -295px;
+}
+body{
+    color: #fff !important;
+    height: 100px;
+    background: #000;
+}
+.sidenav{
+    padding: 20px 0 20px 0 !important;
+}
+.fa-leaf{
+    background: linear-gradient(221.4deg, #6DA64E 0%, #4EAA94 73.1%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.img-icon-phone{
+    background: #000;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.input-field input{
+    position: relative !important;
+    right: 20px !important;
+    background-color: white !important;
+    color: #4d4d4d !important;
+    border: none !important;
+    border-radius: 20px 0 !important;
+    outline: none !important;
+    height: 4rem !important;
+    width: 80% !important;
+    font-size: 16px !important;
+    margin: 0 0 8px 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    box-sizing: content-box !important;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s !important;
+}
+.input-field textarea{
+    position: relative !important;
+    right: 20px !important;
+    background-color: white !important;
+    color: #4d4d4d !important;
+    border: none !important;
+    border-radius: 10px 0 !important;
+    outline: none !important;
+    height: 13rem !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    margin: 0 0 8px 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    box-sizing: content-box !important;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s !important;
+}
+@media screen and (max-width: 601px){
+    .fas.fa-leaf{
+        position: relative;
+        top: 15px !important;
+    }
+}
